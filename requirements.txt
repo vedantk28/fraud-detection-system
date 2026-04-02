@@ -1,0 +1,11 @@
+torch
+torch-geometric
+xgboost
+shap
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+kafka-python
+pandas
+numpy
