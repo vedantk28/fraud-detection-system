@@ -6,7 +6,6 @@ A **fintech-scale fraud detection pipeline** combining Graph Neural Networks (GN
 [![Tests Passing](https://img.shields.io/badge/tests-5%2F5%20passing-brightgreen)]()
 [![Latency](https://img.shields.io/badge/P99%20latency-3.64ms-blue)]()
 [![Python](https://img.shields.io/badge/python-3.12-blue)]()
-[![License](https://img.shields.io/badge/license-MIT-green)]()
 
 ---
 
