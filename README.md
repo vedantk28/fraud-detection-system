@@ -2,7 +2,6 @@
 
 A **fintech-scale fraud detection pipeline** combining Graph Neural Networks (GNN), XGBoost, and SHAP explainability. Detects complex fraud patterns through account relationship analysis with **sub-4ms inference latency**.
 
-**Built for hire at:** PayPal · Razorpay · Paytm · PhonePe
 
 [![Tests Passing](https://img.shields.io/badge/tests-5%2F5%20passing-brightgreen)]()
 [![Latency](https://img.shields.io/badge/P99%20latency-3.64ms-blue)]()
@@ -245,7 +244,7 @@ fraud-detection-system/
 
 ---
 
-## 🎓 What Makes This Fintech-Ready
+## 🎓 What Make Ready
 
 | Aspect | Implementation | Impact |
 |--------|----------------|--------|
@@ -258,7 +257,7 @@ fraud-detection-system/
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 ### Production Checklist
 - ✓ Dockerized
@@ -269,35 +268,5 @@ fraud-detection-system/
 - ✓ Full test coverage
 - ✓ Performance benchmarks
 
-### Deploy to AWS
-```bash
-# Push to ECR, deploy on ECS/Fargate
-docker build -t fraud-detection .
-aws ecr push fraud-detection:latest
-```
-
----
-
-## 📚 References
-
-**Why Fintech Cares About These Components:**
-
-1. **GNN** - Captures account relationships (ring fraud, layering)
-2. **XGBoost** - Interpretable + fast (regulatory requirement)
-3. **SHAP** - Explains every decision (audit trail)
-4. **Kafka** - Handles transaction velocity
-5. **Online Learning** - Adapts to new fraud tactics in real-time
-
----
-
-## 📞 Questions?
 
 Check out the [GitHub Issues](https://github.com/vedantk28/fraud-detection-system/issues) or reach out.
-
----
-
-## 📜 License
-
-MIT License - Free for personal & commercial use
-
-**Made with ❤️ for fintech hiring**
